@@ -25,13 +25,18 @@ Handwritten digit recognition and California house price prediction
 
 ```
 .
-├── FNN.py                              # 包含 MLP 网络结构、训练方法、预测方法、早停机制等核心代码
-├── digits_classification.py            # 手写数字识别任务主脚本
-├── housing_regression.py               # 加利福尼亚房价预测任务主脚本
-├── best_model.pth                      # 分类任务保存的模型参数（如已生成）
-├── california_housing_best_model.pth   # 回归任务保存的模型参数（如已生成）
-├── california_housing_losses.png       # 回归任务训练损失曲线（如启用保存）
-└── README.md                           # 项目说明文档（当前文件）
+├── FNN.py                                # 包含 MLP 网络结构、训练方法、预测方法、早停机制等核心代码
+├── 手写数字识别.py                         # 手写数字识别任务主脚本
+├── 预测加利福尼亚房价.py                    # 加利福尼亚房价预测任务主脚本
+├── best_model.pth                        # 分类任务保存的模型参数（如已生成）
+├── california_housing_best_model.pth     # 回归任务保存的模型参数（如已生成）
+├── california_housing_losses.png         # 回归任务训练损失曲线（如启用保存）
+├── best_model_1.pth                      # 手写数字识别最优模型
+├── best_model_1.png                      # 手写数字识别最优模型信息
+├── california_housing_best_model_1.pth   # 加利福尼亚房价预测最优模型
+├── california_housing_best_model_1.png   # 加利福尼亚房价预测最优模型信息
+├── california_housing_losses_1.png       # 加利福尼亚房价预测训练损失随 Epoch 变化
+└── README.md                             # 项目说明文档（当前文件）
 ```
 
 ---
